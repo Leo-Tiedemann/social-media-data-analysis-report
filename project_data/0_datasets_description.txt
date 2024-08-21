@@ -1,0 +1,20 @@
+subreddit_list_to_retrive.txt; List of subreddits from which Postings were collected
+submissions.json;Raw retrived data 
+
+submissions_filtered.json; Retrived data after filtering
+
+submissions_preprop_topic.json; Retrived data after Preprocessing (no stopword removal); Used for topic modeling
+submissions_preprop.json; Submission Data after text processing
+submissions_label_lem.json;Sentiment Analysis Training data after Preprocessing
+
+submissions_classified.json; Data after Sentiment classification 
+sample_data.csv; (annoteted) test data for Sentiment classification
+test_data_classified; (annotated) test data with classification of tested models
+
+negative_t5_150_topics_desc.csv; Representative documents for most positive topics (with 150 documents or more) 
+negative_t5_topics_desc; Representative documents for most positive topics 
+positive_t5_150_topics_desc.csv; Representative documents for most negative topics (with 150 documents or more) 
+positive_t5_topics_desc; Representative documents for most negative topics 
+t10_topics_desc.csv; Representative documents for the 10 largest topics 
+
+/trained_topic_model: Containes model configurations, trained topics and embeddings

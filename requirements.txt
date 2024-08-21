@@ -1,0 +1,15 @@
+ipykernel
+ipywidgets
+praw
+matplotlib
+langdetect
+numpy==1.26.4
+torch
+TensorFlow>= 2.0
+transformers
+tf-keras
+demoji
+nltk
+vaderSentiment
+BERTopic
+wordcloud
